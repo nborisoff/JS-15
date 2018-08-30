@@ -43,7 +43,7 @@ describe('num', function() {
 
 describe('each type', function() {
 	it("Проверка на тип данных each", function() {
-		assert.typeOf(each(arr1, myFunc), 'object');
+		assert.typeOf(each(arr1, myFunc), 'array');
 	});
 	
 	describe('each length', function() {
