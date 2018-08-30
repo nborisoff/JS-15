@@ -23,7 +23,7 @@ var myFunc = function(a){
 	return newArr;
 }
 
-console.log(each(arr1, myFunc));
+console.log(typeof(each(arr1, myFunc)));
 
 //Tests
 
@@ -42,12 +42,12 @@ describe('num', function() {
 });
 
 describe('each type', function() {
-	it("Проверка на тип данных each и свойство length", function() {
+	it("Проверка на тип данных each", function() {
 		assert.typeOf(each(arr1, myFunc), 'object');
 	});
 	
 	describe('each length', function() {
-		it("Проверка на тип данных each и свойство length", function() {
+		it("Проверка на свойство length", function() {
 			assert.lengthOf(each(arr1, myFunc), 5);
 		});
 	});
