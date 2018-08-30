@@ -23,7 +23,7 @@ var myFunc = function(a){
 	return newArr;
 }
 
-console.log(each(arr1, myFunc));
+console.log(typeof(each(arr1, myFunc)));
 
 //Tests
 
