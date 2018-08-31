@@ -2,7 +2,7 @@
 const sum = require('../js/1');
 
 test('Функция sum должна возвращать тип данных true', () => {
-	expect(sum(2, 2)).Truthy();
+	expect(sum(2, 2)).toBeTruthy();
 });
 
 
